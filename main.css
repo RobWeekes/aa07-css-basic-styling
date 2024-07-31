@@ -1,37 +1,46 @@
 h1 {
-    font-size: ;
-    font-family: ;
-    padding: ;
+    font-size: 30pt;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    padding: 10px 100px;
     margin: ;
     font-weight: ;
     text-decoration: ;
-    color: ;
+    color: navy;
     background-color: ;
 }
 
 h2 {
-    font-size: ;
-    font-family: ;
-    padding: ;
+    font-size: 20pt;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    padding: 10px 100px;
     margin: ;
     font-weight: ;
-    color: ;
+    color: navy;
     background-color: ;
 }
 
 p {
-    font-family: ;
-    font-size: ;
-    padding: ;
-    margin: ;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-size: 12pt;
+    padding: 0px 20px;
+    margin: 20px auto;
     color: ;
     background-color: ;
+    width: 80%;
 }
 
 .logo {
     background-size: cover;
-    background-image: url();
-    background-color: ;
-    height: ;
-    width: ;
+    background-image: url("https://appacademy.github.io/styleguide/assets/logo/logo-emblem-black-1000.png");
+    background-color: bisque;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    /* padding: 0px; */
 }
+
+/* probably don't want every image tag have the same dimensions */
+/* img {
+    height: 100px;
+    width: 100px;
+} */
